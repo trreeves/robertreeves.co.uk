@@ -1,0 +1,270 @@
+﻿*
+{
+	padding:0;
+	margin:0;
+	border:0;
+	font-size:9pt;
+	font-weight:normal;
+	line-height:normal;
+	font-family: verdana, arial, sans-serif;
+	background-color:Transparent;
+}
+
+p
+{
+    line-height:1.5em;
+	margin-bottom:15px;
+}
+
+ul
+{
+   float:left; 
+   width:auto;
+   list-style-type:square;
+}
+
+li
+{
+	line-height:1.5em;
+	text-align:left;
+}
+
+a:hover
+{
+    color : Black;/*rgb(51, 102, 153);*/
+    background-color : rgb(224, 227, 241);
+}
+
+a:link
+{
+    color : rgb(51, 102, 153);
+}
+
+a:visited
+{
+    color : rgb(102, 102, 102);
+}
+
+h4, h4 a, h4 a:visited
+{
+    color : rgb(86, 89, 158);
+    font-size : 10pt;
+    font-weight:bold;
+	margin-bottom:15px;
+}
+
+h5
+{
+    margin-top : 0px;
+    font-weight:bold;
+}
+
+/* ***** Page Layout ***** */
+body 
+{
+   	color: rgb(102, 102, 102);
+	background-image : url(images/bg.png);
+	background-repeat : repeat-x;
+	padding:10px 0px 10px 0px;
+}
+
+#bodyContainer
+{
+	width:748px;
+	margin-left  : auto;
+	margin-right : auto;
+	background-color:white;
+	border-width:0px 2px;
+	border-style:solid;
+	border-color:rgb(86, 89, 158);
+}
+
+p#footer
+{
+	border-style : solid;
+	border-top-width : 1px;
+	border-color : rgb(200, 200, 200);
+	padding : 10px 0px;
+	font-size : 80%;
+    margin : 15px 27px 0px 27px;
+    text-align : center;
+}
+
+div.TopBottom
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:752px;
+}
+
+a.topLink:hover
+{
+	background-color:transparent;
+}
+
+/**** Menu ****/
+div#menu 
+ {
+   float:left; 
+   margin-top:150px; 
+   width:0px; 
+   margin-left:0px;
+}
+      
+.menuItem
+{
+   background-image: url(images/menu.png); 
+   background-repeat:no-repeat; 
+   width:52px ; 
+   height:40px ; 
+   margin-left:-104px; 
+   padding:25px 0px 0px 50px;
+   color : rgb(86, 89, 158);
+   display:block;
+   text-decoration:none;
+   
+}
+      
+.menuItem.active
+{
+   margin-left:-102px; 
+   background-image: url(images/menu_active.png);
+   font-weight:bold;
+}
+
+a.menuItem:hover
+{
+	background-color:transparent;
+}
+a.menuItem:visited
+{
+	color : rgb(86, 89, 158);
+}
+
+/**** Banner ****/
+div.banner.title
+{
+	padding-top:30px;
+}
+div.banner h2, div.banner h1
+{
+	background-color:rgb(86, 89, 158);
+	background-image:url(images/banner_strip.jpg); 
+	background-repeat:repeat-x; 
+	height:43px;
+	margin-right:0px;
+	text-align : left;
+    display:block;
+    font-weight:bold;
+	color:white;
+    font-size:10pt;
+	padding : 7px 20px 0px 20px;
+}
+
+div.banner img { float:right; }
+
+/**** Contents ****/
+div.content
+{
+   background-color:white;
+   overflow : hidden;
+   text-align : justify;
+   padding : 7px 20px 0px 20px;
+   width:auto;
+}
+
+div.contentBox
+{
+   float:left; 
+   width:240px;
+   height:215px;
+   margin-left:35px; 
+   text-align:left; 
+   
+   padding: 15px;
+   border-color : rgb(200, 200, 200);
+   border-width : 1px;
+   border-style : solid;
+   
+   background-image : url(images/content_box_bg.png);
+   background-repeat : no-repeat;
+}
+
+div.contentBox.right { margin-left : 45px; }
+
+div.contentBox ul { margin-left:20px; }
+
+div.contentBox ul img { margin:2px 5px; }
+
+img.contentImg
+{
+   float:right; 
+   margin:0px 0px 5px 10px;
+}
+
+img.bannerImg
+{
+   float:right; 
+   margin : -29px 20px 0px 0px;
+   clear:right;
+}
+
+img.rightGhostImg
+{
+   float:right; 
+   clear:right;
+}
+
+ul.serviceList
+{
+	margin-top:0px;
+	margin-left:30px;
+	margin-bottom:15px;
+}
+
+ul.serviceList li
+{
+   font-size:10pt;
+   font-weight:bold;
+   line-height:1.8em;
+}
+
+span.estimateInfo { font-style : italic; margin-bottom:15px;display:block;}
+
+.highlight  { background-color: rgb(224, 227, 241); }
+
+/* ***** side bar ***** */
+
+#sidebar
+{
+   float : right;
+   width:165px;
+   overflow : hidden;
+   padding: 15px;
+   border-color : rgb(200, 200, 200);
+   border-width : 1px;
+   border-style : solid;
+   clear:right;
+   margin-top : 15px;
+   margin-right : 10px;
+   background-image : url(images/contact_bg.png);
+   background-repeat : no-repeat;
+}
+
+.sideBarRule
+{
+	border-bottom-width:1px; 
+	border-color:rgb(200, 200, 200); 
+	border-bottom-style:solid; 
+	width:150px; 
+	margin-right:auto; 
+	margin-left:auto
+}
+
+.actionItem { color : rgb(51, 102, 153); }
+
+p.sidebarSection  { margin-top : 10px; }
+
+ul.contactList  { list-style-type : none; margin-bottom : 15px; }
+
+ul.contactList li  { margin-top : 3px; }

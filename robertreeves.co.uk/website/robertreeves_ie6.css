@@ -1,0 +1,12 @@
+a.topLink img {
+	margin-bottom:-2px;
+}
+
+div.banner.title
+{
+	background-image:url(images/banner_strip.jpg); 
+	background-repeat:repeat-x;
+	background-position:0px 30px;
+}
+
+

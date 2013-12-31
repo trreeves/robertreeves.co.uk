@@ -1,0 +1,138 @@
+*
+{
+	padding:0;
+	margin:0;
+	border:0;
+	font-size:16pt;
+	font-weight:normal;
+	line-height:normal;
+	font-family: Palatino Linotype, Book Antiqua3, Palatino, serif;
+	background-color:Transparent;
+}
+
+a {
+	text-decoration:none
+}
+
+p {
+	line-height: 1.5em;
+	margin-bottom:20px;
+	font-family : Palatino Linotype, Book Antiqua3, Palatino, serif;
+}
+
+h1 {
+	font-family : Comic Sans MS, Comic Sans MS5, cursive;
+	font-size: 36pt;
+}
+
+h2 {
+	font-family : Comic Sans MS, Comic Sans MS5, cursive;
+	font-size: 18pt;
+	color : rgb(151,151,249);
+	font-weight:bold
+}
+
+h6 {
+	font-family : Comic Sans MS, Comic Sans MS5, cursive;
+	font-size: 16pt;
+	color : rgb(151,151,249);
+	font-weight:bold
+}
+
+body {
+	background-color : white;
+	background-image : url(images/IMG_7658_3.jpg);
+	background-repeat : no-repeat;
+	background-position-x : 0px;
+	height : 100%;
+	width: 100%;
+}
+
+#header {
+	position: absolute;
+	left: 375px;
+	padding-top:20px
+}
+
+#menu {
+	position: absolute;
+	left: 375px;
+	top:180px;
+	width:790px;
+	
+}
+
+#menu ul {
+	list-style-type: none;
+	list-style-position: inside;
+}
+
+#menu  ul li {
+	float : left;
+	margin-left : 20px;
+	
+}
+
+#menu  ul li a, #menu  ul li a:visited {
+	font-size : 30pt;
+	color : rgb(295,195,56);
+	font-family : Comic Sans MS, Comic Sans MS5, cursive;
+}
+
+#menu  ul li a.current-link {
+	color : rgb(151,151,249) !important;
+}
+
+#menu  ul li a:hover {
+	color : rgb(181,217,253);
+}
+
+#body ul li {
+	margin-left:65px;
+	margin-bottom:20px;
+}
+
+#body .page-sublist li  p {
+	font-size : 14pt;
+}
+
+#body .page-sublist li  {
+	font-size : 14pt;
+	list-style-type: none;
+}
+
+#gMap {
+	float : right;
+}
+
+a, a:visited {
+	color : rgb(295,195,56) !important;
+	text-decoration:none;
+}
+
+a:hover {
+	color : rgb(181,217,253) !important;
+}
+
+.string-blue {
+	color : rgb(151,151,249);
+}
+
+.string-orange {
+	color : rgb(295,195,56);
+}
+
+.string-yellow {
+	color : rgb(251,251,91)
+}
+
+.string-lightblue {
+	color : rgb(181,217,253);
+}
+
+#body {
+	position: absolute;
+	top: 320px;
+	left: 375px;
+	width: 800px;
+}
