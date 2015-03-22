@@ -1,4 +1,4 @@
-﻿*
+*
 {
 	padding:0;
 	margin:0;
@@ -158,7 +158,7 @@ div.banner h2, div.banner h1
     font-weight:bold;
 	color:white;
     font-size:10pt;
-	padding : 7px 20px 0px 20px;
+	padding : 7px 20px 0px 10px;
 }
 
 div.banner img { float:right; }
